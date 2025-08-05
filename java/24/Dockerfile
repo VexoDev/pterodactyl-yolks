@@ -7,7 +7,7 @@ LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         rm -rf /bin/dd \
 						&& rm -rf /usr/bin/fallocate \
-						&& rm -rf /usr/bin/truncate \
+						&& rm -rf /usr/bin/truncate
 RUN         apk update \
 						&& apk add curl
 

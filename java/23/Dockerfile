@@ -7,15 +7,15 @@ LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         rm -rf /bin/dd \
 						&& rm -rf /usr/bin/fallocate \
-						&& rm -rf /usr/bin/truncate \
-RUN         apt-get update -y \
-						&& apt-get install -y curl
+						&& rm -rf /usr/bin/truncate
+RUN         apk update \
+						&& apk add curl
 
 RUN         curl -sSL https://github.com/OpticFusion1/MCAntiMalware/releases/latest/download/MCAntiMalware.jar \
 						-o /MCAntiMalware.jar
 
-RUN 				apt-get install -y jq unzip lsof ca-certificates openssl git tar sqlite3 fontconfig libfreetype6 tzdata iproute2 libstdc++6 \
-						&& useradd -d /home/container -m container
+RUN 				apk add jq unzip bash lsof ca-certificates openssl git tar sqlite fontconfig freetype tzdata iproute2 libstdc++ \
+						&& adduser -D -h /home/container container
 
 USER        container
 ENV         USER=container HOME=/home/container
