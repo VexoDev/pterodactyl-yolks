@@ -5,8 +5,8 @@ LABEL       author="Vexonic" maintainer="sysadmin@vexonic.cc"
 LABEL       org.opencontainers.image.source="https://github.com/vexodev/pterodactyl-yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
-RUN		 	sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* \
-			sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+RUN		 	sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+RUN			sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 
 RUN         rm -rf /usr/bin/dd \
 						&& rm -rf /usr/bin/fallocate \

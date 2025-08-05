@@ -10,8 +10,8 @@ RUN         rm -rf /usr/bin/dd \
 						&& rm -rf /usr/bin/truncate \
                         && rm -rf /usr/bin/xfs_mkfile
 
-RUN         microdnf update -y \
-						&& microdnf install -y curl
+RUN         microdnf update -y
+RUN 		microdnf install -y curl
 
 RUN         curl -sSL https://github.com/OpticFusion1/MCAntiMalware/releases/latest/download/MCAntiMalware.jar \
 						-o /MCAntiMalware.jar
