@@ -14,17 +14,16 @@
         "pid_limit"
     ],
     "docker_images": {
-        "Java 24": "ghcr.io\/vexodev\/pterodactyl-yolks:java_24",
-        "Java 23": "ghcr.io\/vexodev\/pterodactyl-yolks:java_23",
-        "Java 22": "ghcr.io\/vexodev\/pterodactyl-yolks:java_22",
-        "Java 21": "ghcr.io\/vexodev\/pterodactyl-yolks:java_21",
-        "Java 19": "ghcr.io\/vexodev\/pterodactyl-yolks:java_19",
-        "Java 18": "ghcr.io\/vexodev\/pterodactyl-yolks:java_18",
-        "Java 17": "ghcr.io\/vexodev\/pterodactyl-yolks:java_17",
-        "Java 16": "ghcr.io\/vexodev\/pterodactyl-yolks:java_16",
-        "Java 11": "ghcr.io\/vexodev\/pterodactyl-yolks:java_11",
-        "Java 8": "ghcr.io\/vexodev\/pterodactyl-yolks:java_8",
-        "Java 7": "ghcr.io\/vexodev\/pterodactyl-yolks:java_7"
+        "Java Temurin 24": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_24",
+        "Java Temurin 23": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_23",
+        "Java Temurin 22": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_22",
+        "Java Temurin 21": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_21",
+        "Java Temurin 19": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_19",
+        "Java Temurin 18": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_18",
+        "Java Temurin 17": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_17",
+        "Java Temurin 16": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_16",
+        "Java Temurin 11": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_11",
+        "Java Temurin 8": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_8"
     },
     "file_denylist": [],
     "startup": "java -Dterminal.jline=false -Dterminal.ansi=true -Xms256M -Xmx$(({{SERVER_MEMORY}}*{{MAXIMUM_RAM}}\/100))M -jar {{SERVER_JARFILE}} nogui",
