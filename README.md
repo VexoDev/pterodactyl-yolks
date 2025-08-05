@@ -6,34 +6,34 @@
 
 * [`Temurin Java`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin)
   * [`java8`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/8)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_8`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_8`
   * [`java11`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/11)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_11`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_11`
   * [`java16`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/16)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_16`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_16`
   * [`java17`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/17)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_17`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_17`
   * [`java18`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/18)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_18`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_18`
   * [`java19`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/19)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_19`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_19`
   * [`java21`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/21)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_21`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_21`
   * [`java22`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/22)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_22`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_22`
   * [`java23`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/23)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_23`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_23`
   * [`java24`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/24)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_24`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_24`
 
 * [`GraalVM Java`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/temurin)
   * [`java17`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/17)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_17`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_17`
   * [`java21`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/21)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_21`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_21`
   * [`java22`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/22)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_22`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_22`
   * [`java23`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/23)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_23`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_23`
   * [`java24`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/24)
-    * `ghcr.io/mcjars/pterodactyl-yolks:java-temurin_24`
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_24`
