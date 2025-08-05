@@ -33,7 +33,7 @@ jobs:
       - uses: docker/build-push-action@v4
         with:
           context: ./java
-          file: ./java/${{ matrix.tag }}/Dockerfile
+          file: ./java/temurin/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
           tags: |
