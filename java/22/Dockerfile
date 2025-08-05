@@ -1,15 +1,13 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:22-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:22-jdk-alpine
 
-LABEL       author="Robert Jansen" maintainer="rjansengd@gmail.com"
+LABEL       author="Vexonic" maintainer="sysadmin@vexonic.cc"
 
-LABEL       org.opencontainers.image.source="https://github.com/mcjars/pterodactyl-yolks"
+LABEL       org.opencontainers.image.source="https://github.com/vexodev/pterodactyl-yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
-RUN         rm -rf /usr/bin/dd \
+RUN         rm -rf /bin/dd \
 						&& rm -rf /usr/bin/fallocate \
-						&& rm -rf /usr/bin/truncate \
-						&& rm -rf /usr/bin/xfs_mkfile
-
+						&& rm -rf /usr/bin/truncate
 RUN         apt-get update -y \
 						&& apt-get install -y curl
 
