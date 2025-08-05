@@ -34,7 +34,7 @@ jobs:
         with:
           context: ./java
           file: ./java/graalvm/${{ matrix.tag }}/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: |
             ghcr.io/vexodev/pterodactyl-yolks:java-graalvm_${{ matrix.tag }}
