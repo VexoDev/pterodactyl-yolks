@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:17-jdk-ubi10-minimal
+FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:20-jdk-ubi9-minimal
 
 LABEL       author="Vexonic" maintainer="sysadmin@vexonic.cc"
 

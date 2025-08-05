@@ -18,6 +18,7 @@
         "Java Temurin 23": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_23",
         "Java Temurin 22": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_22",
         "Java Temurin 21": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_21",
+        "Java Temurin 20": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_20",
         "Java Temurin 19": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_19",
         "Java Temurin 18": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_18",
         "Java Temurin 17": "ghcr.io\/vexodev\/pterodactyl-yolks:java-temurin_17",
@@ -28,12 +29,8 @@
         "Java GraalVM 23": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_23",
         "Java GraalVM 22": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_22",
         "Java GraalVM 21": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_21",
-        "Java GraalVM 19": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_19",
-        "Java GraalVM 18": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_18",
-        "Java GraalVM 17": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_17",
-        "Java GraalVM 16": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_16",
-        "Java GraalVM 11": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_11",
-        "Java GraalVM 8": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_8"
+        "Java GraalVM 20": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_20",
+        "Java GraalVM 17": "ghcr.io\/vexodev\/pterodactyl-yolks:java-graalvm_17"
     },
     "file_denylist": [],
     "startup": "java -Dterminal.jline=false -Dterminal.ansi=true -Xms256M -Xmx$(({{SERVER_MEMORY}}*{{MAXIMUM_RAM}}\/100))M -jar {{SERVER_JARFILE}} nogui",

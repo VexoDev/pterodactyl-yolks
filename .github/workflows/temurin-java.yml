@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tag: [8, 11, 16, 17, 18, 19, 21, 22, 23, 24]
+        tag: [8, 11, 16, 17, 18, 19, 20, 21, 22, 23, 24]
     steps:
       - uses: actions/checkout@v3
       - uses: docker/setup-qemu-action@v2
@@ -34,7 +34,7 @@ jobs:
         with:
           context: ./java
           file: ./java/temurin/${{ matrix.tag }}/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: |
             ghcr.io/vexodev/pterodactyl-yolks:java-temurin_${{ matrix.tag }}
