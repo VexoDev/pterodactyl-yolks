@@ -27,6 +27,8 @@
     * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_23`
   * [`java24`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/24)
     * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_24`
+  * [`java25`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/temurin/25)
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-temurin_25`
 
 * [`GraalVM Java`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/graalvm)
   * [`java17`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/graalvm/community-edition/17)
@@ -41,3 +43,5 @@
     * `ghcr.io/vexodev/pterodactyl-yolks:java-graalvm-ce_23`
   * [`java24`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/graalvm/community-edition/24)
     * `ghcr.io/vexodev/pterodactyl-yolks:java-graalvm-ce_24`
+  * [`java25`](https://github.com/vexodev/pterodactyl-yolks/tree/main/java/graalvm/community-edition/25)
+    * `ghcr.io/vexodev/pterodactyl-yolks:java-graalvm-ce_25`
