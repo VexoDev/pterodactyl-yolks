@@ -1,4 +1,4 @@
-name: built java temurin amd64
+name: built java temurin
 on:
   workflow_dispatch:
   schedule:
